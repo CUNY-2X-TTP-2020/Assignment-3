@@ -7,8 +7,7 @@
 
 
 // 3 - Select all of the list items with a class of "second"
-
-
+let second = document.getElementsByClassName("second");
 
 // 4 - Select a list item with a class of third, but only the list item inside of the ol tag
 let item = document.getElementsByClassName("third")[1];
