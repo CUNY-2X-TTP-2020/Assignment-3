@@ -15,7 +15,8 @@
 
 
 // 5 - Give the section with an id of container the text "Hello!"
-
+let section = document.getElementById("container");
+section.innerText = "Hello";
 
 
 // 6 - Add the class main to the div with a class of footer
