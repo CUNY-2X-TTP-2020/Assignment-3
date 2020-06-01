@@ -2,8 +2,7 @@
 let container = document.getElementById("container");
 
 // 2 - Select the section with an id of container using querySelector
-
-
+let querySelected = document.querySelector("section");
 
 // 3 - Select all of the list items with a class of "second"
 
