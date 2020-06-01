@@ -27,7 +27,7 @@
 
 
 // 8 - Create a new li element
-let newLiElement = document.createElement('li');
+let newLiElement = document.createElement("li");
 
 
 // 9 - Give the li the text "four"
