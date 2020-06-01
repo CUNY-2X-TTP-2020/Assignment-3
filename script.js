@@ -27,11 +27,11 @@
 
 
 // 8 - Create a new li element
-
+let newLiElement = document.createElement("li");
 
 
 // 9 - Give the li the text "four"
-
+newLiElement.innerHTML = 'four'
 
 
 // 10 - Append the li to the ul element
