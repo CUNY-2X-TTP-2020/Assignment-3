@@ -11,8 +11,8 @@
 
 
 // 4 - Select a list item with a class of third, but only the list item inside of the ol tag
-
-
+let item = document.getElementsByClassName("third")[1];
+console.log(item);
 
 // 5 - Give the section with an id of container the text "Hello!"
 
