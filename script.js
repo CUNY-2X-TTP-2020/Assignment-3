@@ -31,7 +31,7 @@
 
 
 // 9 - Give the li the text "four"
-
+let newLiElement.innerHTML = "four";
 
 
 // 10 - Append the li to the ul element
