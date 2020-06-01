@@ -19,7 +19,7 @@
 
 
 // 6 - Add the class main to the div with a class of footer
-
+document.getElementsByClassName("footer")[0].classList.add("main");
 
 
 // 7 - Remove the class main on the div with a class of footer
