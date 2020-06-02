@@ -34,9 +34,22 @@ let newLiElement = document.createElement("li");
 newLiElement.innerHTML = 'four'; // "four"
 
 // 10 - Append the li to the ul element
-
+let ul =document.querySelector('ul');
+let li=document.createElement("li");
+li.innerText = "Batman";
+ul.appendChild(li);
+//close 10
 
 // 11 - Loop over all of the lis inside the ol tag and give them a background color of "green"
-
-
+let ol = document.querySelector("ol");
+let items = ol.getElementsByTagName("li");
+for (let i = 0; i < items.length; ++i) {
+  // do something with items[i], which is a <li> element
+	items[i].style.backgroundColor = "#228B22";                      
+}
 // 12 - Remove the div with a class of footer
+let myObj = document.getElementsByClassName('footer');
+for(let i=0;i<myObj;i++){
+  myObj[i].remove();
+
+}
