@@ -38,6 +38,8 @@ let ul =document.querySelector('ul');
 let li=document.createElement("li");
 li.innerText = "Batman";
 ul.appendChild(li);
+//close 10
+
 // 11 - Loop over all of the lis inside the ol tag and give them a background color of "green"
 let ol = document.querySelector("ol");
 let items = ol.getElementsByTagName("li");
@@ -49,4 +51,5 @@ for (let i = 0; i < items.length; ++i) {
 let myObj = document.getElementsByClassName('footer');
 for(let i=0;i<myObj;i++){
   myObj[i].remove();
+
 }
